@@ -1,0 +1,6 @@
+C:\Users\eahscs\Documents\GitHub\GettingStarted\FindTheLargest\bin\Debug\FindTheLargest.exe.config
+C:\Users\eahscs\Documents\GitHub\GettingStarted\FindTheLargest\bin\Debug\FindTheLargest.exe
+C:\Users\eahscs\Documents\GitHub\GettingStarted\FindTheLargest\bin\Debug\FindTheLargest.pdb
+C:\Users\eahscs\Documents\GitHub\GettingStarted\FindTheLargest\obj\Debug\FindTheLargest.csprojResolveAssemblyReference.cache
+C:\Users\eahscs\Documents\GitHub\GettingStarted\FindTheLargest\obj\Debug\FindTheLargest.exe
+C:\Users\eahscs\Documents\GitHub\GettingStarted\FindTheLargest\obj\Debug\FindTheLargest.pdb
