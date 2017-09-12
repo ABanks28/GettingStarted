@@ -10,18 +10,38 @@ namespace Palindrome
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Type the palindrome: ");
-            string PalOrNah = Console.ReadLine();
+            while (1 == 1)
+                {
 
-            PalOrNah = PalOrNah.Replace(" ", string.Empty);
-            string reverse = "";
 
-            for (int i = 0; i <= PalOrNah.Length; i++)
-            {
-                reverse = reverse + PalOrNah.Substring(PalOrNah.Length - i, PalOrNah.Length - (i + 1));
+                Console.WriteLine("Type the palindrome: ");
+                string PalOrNah = Console.ReadLine().ToLower();
+
+
+                PalOrNah = PalOrNah.Replace(" ", string.Empty);
+                PalOrNah = PalOrNah.Replace(":", string.Empty);
+                PalOrNah = PalOrNah.Replace(",", string.Empty);
+                PalOrNah = PalOrNah.Replace(".", string.Empty);
+                string reverse = "";
+
+                for (int i = 0; i < PalOrNah.Length; i++)
+                {
+                    reverse = reverse + PalOrNah.Substring(PalOrNah.Length - i - 1, 1);
+                }
+
+                if (reverse == PalOrNah)
+                {
+                    Console.WriteLine("It's a palindrome bud.");
+                }
+
+                else
+                {
+                    Console.WriteLine("It's not a palidrome, bud.");
+                }
+
+
+                
             }
-            Console.WriteLine(reverse);
-            Console.ReadLine();
         }
     }
 }
